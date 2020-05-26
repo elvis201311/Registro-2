@@ -47,13 +47,13 @@ namespace Registro
                 direccionTextBox.Text.Length == 0 || idBox.Text.Length == 0 || cedulaTextBox.Text.Length == 0 || fechaNDatePicker.Text.Length == 0)
             {
                 valido = false;
-                MessageBox.Show("Verifique que todos los campos esten llenos.", "Fallo",
+                MessageBox.Show("Confirme que todo los campos esten lleno.", "Fallo",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             else if (nombreTextBox.Text.Length == 0 || nombreTextBox.Text.Length < 2)
             {
                 valido = false;
-                MessageBox.Show("Verifique que haya introducido un nombre valido.", "Fallo",
+                MessageBox.Show("Confirme que haya ingresado un nombre valido.", "Fallo",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
             }
 
@@ -93,7 +93,7 @@ namespace Registro
             if (key)
             {
                 Limpiar();
-                MessageBox.Show("Guardad", "Exitosamente", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Se a Guardad", "Exitosamente!", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
@@ -107,7 +107,7 @@ namespace Registro
             if (EstudiantesBLL.Eliminar(int.Parse(idBox.Text)))
             {
                 Limpiar();
-                MessageBox.Show("Eliminado.", "Exitosamente",
+                MessageBox.Show("Se a Eliminado.", "Exitosamente!",
                     MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else

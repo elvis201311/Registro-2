@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Registro"
         mc:Ignorable="d"
-        Title="Registro" Height="353" Width="417" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+        Title="Registro de Estudiantes" Height="340" Width="380" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Orientation="Vertical" Margin="10,10,10,10">
             <StackPanel Orientation="Horizontal">

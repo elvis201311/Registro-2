@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="nuevo.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="DATA\RegistroEstudiantes.db">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
