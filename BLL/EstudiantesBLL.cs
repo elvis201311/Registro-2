@@ -161,6 +161,8 @@ namespace Registro.BLL
             }
 
             return lista;
-        }
+     
+        } 
+        //Elvis
     }
 }
