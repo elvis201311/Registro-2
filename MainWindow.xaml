@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel Orientation="Vertical" Margin="10,10,10,10">
             <StackPanel Orientation="Horizontal">
-                <Label Content="ID" FontSize="14" FontWeight="Bold" FontFamily="Arial Rounded MT Bold"/>
+                <Label Content="Id" FontSize="14" FontWeight="Bold" FontFamily="Arial Rounded MT Bold"/>
                 <TextBox Name="idBox" Text="{Binding EstudianteId}" Width="55" Height="20" Margin="97,0,100,0"/>
 
                 <Button Name="buscarButton" Width="60" Height="20" HorizontalContentAlignment="Left" Margin="-17,0,0,0" Click="buscarButton_Click">
